@@ -1,0 +1,79 @@
+{
+  "study": "Exploratory diagnostic search phase 7: common 0.05 screening budget",
+  "status": "Frozen before OC simulation; all tried settings must be retained",
+  "scope": "Fixed common diagnostic windows, not a full online first-alarm comparison. No guarantee of general superiority.",
+  "master_seed": 20261027,
+  "n": 30,
+  "k": 3,
+  "templates": 4,
+  "ic_history": 1500,
+  "screening_reference_windows": 8000,
+  "diagnostic_reference_windows": 4000,
+  "ic_validation_reps": 1000,
+  "search_reps_per_type": 300,
+  "validation_reps_per_type": 2000,
+  "source_rule": "Uniform random mixed-membership source whose normal expected total lies in the 30th-70th percentile among eligible mixed nodes, selected before OC observations; source pool is never supplied to any fitting or diagnosis method",
+  "types": [
+    "activity",
+    "composition",
+    "joint"
+  ],
+  "directions": "Balanced activity increases and decreases",
+  "mean_edge_grid": [
+    2
+  ],
+  "window_grid": [
+    8
+  ],
+  "effect_grid": [
+    0.6,
+    0.7
+  ],
+  "search_order": "n, mean_edge, window, composition effect, activity effect; parallel extension of phase4, all trials retained",
+  "dgp": "Independent Poisson off-diagonal counts conditional on four periodic DCMM means; symmetric observations; B diagonal one; pure anchor nodes plus overlapping memberships; B unchanged after shifts",
+  "composition_rule": "Move source membership toward its least occupied community and compensate source activity to preserve its IC expected total in every template",
+  "parameter_estimation": "Historical observations only; no true memberships, means, source identities, or OC labels passed to estimators or threshold calibration",
+  "reference_sampling": "Two independently generated sets of IC observations, 4000 full-network windows each, separate from the 1500 fitting observations; same additional IC data budget for all methods; generator truth is never passed to fit/scoring.",
+  "screening": "Node-specific empirical upper tails; DMM L and Q each BH q=0.025, union; each competing single channel BH q=0.05. Same IC observations and nominal total budget; report actual IC false selections.",
+  "primary_metrics": [
+    "micro_precision",
+    "micro_recall",
+    "micro_f1",
+    "exact_source_set_rate"
+  ],
+  "candidate_rule": "Source recall, precision, exact-source-set accuracy, conditional type accuracy, source diagnostic coverage, and source-plus-type rate >=0.85 in every type; F1 higher than each adapted competitor in every type; IC FWER<=0.15",
+  "validation_rule": "Same rule on 2000 new independent replications per type; search trials and failed validations retained",
+  "diagnosis": "DMM-only activity/composition/joint type evaluation, not assigning nonexistent type labels to competitors; report conditional type accuracy and end-to-end rate separately",
+  "composition_reference_support": "Conditional Poisson/multinomial bootstrap at exactly the observed source total, with probabilities estimated from IC template means and fixed normal partner memberships; 999 independent resamples. No oracle probabilities.",
+  "window_branch": "Upper-deviance relative-contribution channel in a fixed common diagnostic window; no online alarm conditioning is claimed",
+  "competitors": {
+    "Dong-score-node-adapted": "Undirected single-layer ZIP-SBM score core with explicitly documented incident-edge node score extension; not an exact reproduction of original community-pair-only diagnosis",
+    "ACD-historical-node-adapted": "Poisson regular/anomalous edge mixture with IC normal reference; incident-edge posterior aggregation; explicitly a historical-reference and node-output adaptation"
+  },
+  "disclosure": "Data are deliberately generated under the proposed mean family. This searches for favorable scenarios; all trials and independent validation outcomes are reported. No deleting losing trials or weakening competitors based on OC results.",
+  "phase": 7,
+  "reason": "At the 0.10 combined nominal screening budget, false additional source selections prevent high exact-set accuracy despite strong recall. Use the same stricter 0.05 nominal budget for all methods, fixed before new OC data, with more IC screening reference windows for adequate BH tail resolution.",
+  "n_grid": [
+    120,
+    180
+  ],
+  "activity_effect_grid": [
+    0.18,
+    0.25
+  ],
+  "reference_mode": "independent_ic_windows",
+  "additional_IC_observations": "8000 screening windows plus 4000 type-reference windows, each of length 8; 96000 additional IC networks; identical data availability across methods",
+  "composition_reference_mode": "conditional_poisson",
+  "conditional_composition_reps": 999,
+  "minimum_precision": 0.85,
+  "minimum_exact_source_set_rate": 0.85,
+  "minimum_end_to_end_type_rate": 0.85,
+  "require_each_type_f1_best": true,
+  "spectral_repair": "Six IC degree-squared diagonal starts; unrestricted signed rank-K spectra; select converged, valid candidates by off-diagonal IC reconstruction residual; reject invalid simplex geometry; no true means, memberships or pure-node indices supplied",
+  "selection_priority": "First validated candidate in this frozen order; all earlier broad-source scenarios remain reported separately and are not replaced by a typical-source claim",
+  "source_volume_quantiles": [
+    0.3,
+    0.7
+  ],
+  "screening_family_budget": 0.05
+}

@@ -1,0 +1,8 @@
+{
+  "kind": "Textual clarification, no experimental change",
+  "frozen_protocol": "protocol_phase7.json",
+  "reference_sampling_actual": "Two independent IC observation banks: 8000 localization windows and 4000 type-reference windows, each length 8. This equals 96000 additional IC network matrices, separate from 1500 fitting observations. Same availability for every method.",
+  "clarification": "The inherited prose field reference_sampling says two banks of 4000. The controlling numeric fields screening_reference_windows=8000 and diagnostic_reference_windows=4000, the additional_IC_observations field, executed code, and run manifest determine the actual design. The frozen protocol is preserved unchanged.",
+  "n_field": "n=30 is a legacy smoke-mode fallback. Formal search uses n_grid=[120,180]; selected setting n=120. The locked confirmation reads the selected setting, not the fallback.",
+  "source_pool": "30th-70th percentiles among eligible mixed nodes, using across-template average normal expected node total. The selected population has 43 eligible sources. Candidate pool is withheld from all fitting/scoring/screening methods."
+}

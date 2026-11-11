@@ -1,0 +1,2 @@
+method,reps,fwer,fwer_ci_low,fwer_ci_high,mean_false_nodes
+DMM-window,4000,0.032,0.026978979805530705,0.037919059113629895,0.0345
