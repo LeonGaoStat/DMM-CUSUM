@@ -1,0 +1,209 @@
+{
+  "scope": "Original numerical files copied without modification; derived method routing wrappers documented separately.",
+  "files": [
+    {
+      "source": "reviewed_package/simulation/code/run_simulation.py",
+      "destination": "simulation/code/run_simulation.py",
+      "sha256": "a26ff74180e16f68b4e31d092349f9c31db22299f054f6545626caaba791e448",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/mldcmm_estimation.py",
+      "destination": "simulation/code/mldcmm_estimation.py",
+      "sha256": "528213a7d740ed4376d8fae1b4036598c7ef8673bd982fd5d0fcbc31787d9cd8",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/run_arl0_nested_20261102.py",
+      "destination": "simulation/code/run_arl0_nested_20261102.py",
+      "sha256": "95a9b0472f10c95e9cfad02d3b232d0e9648503ad75f79c75aeafb0c8d75d7f1",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/arl0_bootstrap_engine_20261102.py",
+      "destination": "simulation/code/arl0_bootstrap_engine_20261102.py",
+      "sha256": "35d62d7d72edf34c5e483fac21554fc3f5692ea5f07b4cf9f62387b816037195",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/arl0_independent_engine_20261102.py",
+      "destination": "simulation/code/arl0_independent_engine_20261102.py",
+      "sha256": "96683d7eab75f1af1a81a1ba26cb4ac27e7b59a6b5d2f67cbf45dd899534ce50",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/run_table5_proposed_batch.py",
+      "destination": "simulation/code/run_table5_proposed_batch.py",
+      "sha256": "18962f12adb04b2653ee73df24780d8c52b5cf6331de2ea49e6fbec66d69c5e8",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/run_robustness_nested_20261104.py",
+      "destination": "simulation/code/run_robustness_nested_20261104.py",
+      "sha256": "28a5bc57a870393d355646e606a1ae6314f52b24511f5d9fa69491f81db58264",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/robustness_independent_engine_20261104.py",
+      "destination": "simulation/code/robustness_independent_engine_20261104.py",
+      "sha256": "daeabb96f569a6ca0cf429a7fec733367efab874977963dfa6e27f3e8939ee3b",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/run_robustness_aligned.py",
+      "destination": "simulation/code/run_robustness_aligned.py",
+      "sha256": "fce8137f4f601c823f347d46dd29586db9734dee04d075fcc220281bb78a4d5f",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/run_robustness_formal_r50.py",
+      "destination": "simulation/code/run_robustness_formal_r50.py",
+      "sha256": "4809416f3deace979fa40cef6d0079f452fd9a83a932c049531abed73bfc9141",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/code/arl0_rerun_20261102_PLAN.md",
+      "destination": "simulation/code/arl0_rerun_20261102_PLAN.md",
+      "sha256": "751f367ef78541402efd9fc4bf19648fbaa8cac7895b6a8254f2dd717b69d1dd",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/Table6_membership_shift_final/code/run_table6_proposed_batch.py",
+      "destination": "simulation/Table6_membership_shift_final/code/run_table6_proposed_batch.py",
+      "sha256": "dd45cd79b3020fecabcfbabdd429fcf00b989c694eb01625d12bfbe30adb0a33",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/Table6_membership_shift_final/code/run_table5_proposed_batch.py",
+      "destination": "simulation/Table6_membership_shift_final/code/run_table5_proposed_batch.py",
+      "sha256": "18962f12adb04b2653ee73df24780d8c52b5cf6331de2ea49e6fbec66d69c5e8",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/Table6_membership_shift_final/code/run_simulation.py",
+      "destination": "simulation/Table6_membership_shift_final/code/run_simulation.py",
+      "sha256": "a26ff74180e16f68b4e31d092349f9c31db22299f054f6545626caaba791e448",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/Table6_membership_shift_final/code/mldcmm_estimation.py",
+      "destination": "simulation/Table6_membership_shift_final/code/mldcmm_estimation.py",
+      "sha256": "528213a7d740ed4376d8fae1b4036598c7ef8673bd982fd5d0fcbc31787d9cd8",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/simulation/results/final/table_arl0_long.csv",
+      "destination": "simulation/results/final/table_arl0_long.csv",
+      "sha256": "eef9d1b8951ce3e3009242794f9cb1986e5f9183c306f2856aff4838ac274706",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/requirements-current-mac.txt",
+      "destination": "requirements-current-mac.txt",
+      "sha256": "79ef65dcc4922f70436e237828d5f75bc0be59f642800c16a5e133ac01d58572",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/code/run_search.py",
+      "destination": "localization/code/run_search.py",
+      "sha256": "7002da90cc5bbe06401f25da64c2149ae79c7696752264fc9300571f01fa04aa",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/code/baseline_fit.py",
+      "destination": "localization/code/baseline_fit.py",
+      "sha256": "b404d4519d25caf2023c44b4120b2a841c554d68038de1bf2e86ee9d05dfe964",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/code/dong_score.py",
+      "destination": "localization/code/dong_score.py",
+      "sha256": "68c745a616c1c3f1ab427b1146920793d78c563647d982c19d4ff3f720edf135",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/code/acd_model.py",
+      "destination": "localization/code/acd_model.py",
+      "sha256": "bc6e98891a36ba305cbc3a3971893540018875f3c5dd47d2661cb922fc657561",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/code/audit_frozen_ic.py",
+      "destination": "localization/code/audit_frozen_ic.py",
+      "sha256": "5a72148a932ac65a1c5ad4116fced6aa49cdb31d218450c1d0f45ad169749ec6",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/inputs/protocol_phase7.json",
+      "destination": "localization/inputs/protocol_phase7.json",
+      "sha256": "dc640b687a851d52612ab964a899918883082fb45ee7cbb795ceb8f6744c08d7",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/inputs/protocol_phase7_clarification.json",
+      "destination": "localization/inputs/protocol_phase7_clarification.json",
+      "sha256": "911870d3e96cc1889a94f2cd156c76f3c0c07389cf37f6580303f44848e2d0f4",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/inputs/selected_validation_metrics.csv",
+      "destination": "localization/inputs/selected_validation_metrics.csv",
+      "sha256": "ea82737477ef3faac29087f4d2132d478d938a4304873dbe14cbeccdc8d83261",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/inputs/archived_fits_n120_mean_2.npz",
+      "destination": "localization/inputs/archived_fits_n120_mean_2.npz",
+      "sha256": "2baa7d3a34ec58e1271eae28cb6b4ec77b6acfebc413228dc5bf96c2666359b4",
+      "byte_identical": true
+    },
+    {
+      "source": "reviewed_package/localization/requirements.txt",
+      "destination": "localization/requirements.txt",
+      "sha256": "0d099f343df2bcf91f0e0dc91b4ca459060601d69363fd4e59de68ae1a8db597",
+      "byte_identical": true
+    },
+    {
+      "source": "original_project/simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_calibration.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_calibration.csv",
+      "sha256": "ad855ff99ee87ea0cc6df01f8bbcb9f74b8054bae8816d7a5799a6d5915e6dc1",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    },
+    {
+      "source": "original_project/simulation/results/table5_three_cases_dmm_caseI_10000_20260923/proposed_arl0_validation.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_arl0_validation.csv",
+      "sha256": "b195accbc7e865519e9ecbca499d1fff12d6fce4dbee5c9d77f1bcc99df50485",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    },
+    {
+      "source": "original_project/simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_calibration.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_calibration.csv",
+      "sha256": "54375184199b1a3d2e7a02146b49f84c0927c90795df56f7c9026ab64d17c731",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    },
+    {
+      "source": "original_project/simulation/results/table5_three_cases_dmm_caseII_10000_20260923/proposed_arl0_validation.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_arl0_validation.csv",
+      "sha256": "28397e95cfb9f920f11b5850108f6c71e7fdc63df7f6d77c4f414e328b1e5cc5",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    },
+    {
+      "source": "original_project/simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_calibration.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_calibration.csv",
+      "sha256": "47d5266d6f7261d561e5f92289768985d7665d32825a4e6594513b16ec2b1833",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    },
+    {
+      "source": "original_project/simulation/results/table5_three_cases_dmm_caseIII_10000_20260923/proposed_arl0_validation.csv",
+      "destination": "simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_arl0_validation.csv",
+      "sha256": "8172fec7640c1a3a20659c5cfbcf7e4b257e334075995782f24c4ddd9341dadb",
+      "byte_identical": true,
+      "role": "archived Membership fixed input; not newly calibrated"
+    }
+  ]
+}

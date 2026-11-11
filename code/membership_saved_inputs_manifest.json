@@ -1,0 +1,122 @@
+{
+  "status": "provenance_verified_replay_pending",
+  "original_generation_argv_recovered": false,
+  "scope": "Original saved inputs for paper Table4 DMM OC replay; no threshold tuning.",
+  "files": [
+    {
+      "case": "I",
+      "kind": "calibration",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_calibration.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_calibration.csv",
+      "source_sha256": "ad855ff99ee87ea0cc6df01f8bbcb9f74b8054bae8816d7a5799a6d5915e6dc1",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "10.713608001344255",
+          "calibration_arl0": "199.9998",
+          "calibration_censored_rate": "0.0113",
+          "paths": "10000"
+        }
+      ],
+      "matching_upstream_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseI_10000_20260923/proposed_calibration.csv",
+      "upstream_byte_identical": true
+    },
+    {
+      "case": "I",
+      "kind": "validation",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_I/dmm/proposed_arl0_validation.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseI_10000_20260923/proposed_arl0_validation.csv",
+      "source_sha256": "b195accbc7e865519e9ecbca499d1fff12d6fce4dbee5c9d77f1bcc99df50485",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "10.713608001344255",
+          "validated_arl0": "197.2491",
+          "se": "1.6782223833436962",
+          "censored_rate": "0.0125",
+          "paths": "10000"
+        }
+      ]
+    },
+    {
+      "case": "II",
+      "kind": "calibration",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_calibration.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_calibration.csv",
+      "source_sha256": "54375184199b1a3d2e7a02146b49f84c0927c90795df56f7c9026ab64d17c731",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "11.729588736605365",
+          "calibration_arl0": "199.9875",
+          "calibration_censored_rate": "0.0147",
+          "paths": "10000"
+        }
+      ],
+      "matching_upstream_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseII_10000_20260923/proposed_calibration.csv",
+      "upstream_byte_identical": true
+    },
+    {
+      "case": "II",
+      "kind": "validation",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_II/dmm/proposed_arl0_validation.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseII_10000_20260923/proposed_arl0_validation.csv",
+      "source_sha256": "28397e95cfb9f920f11b5850108f6c71e7fdc63df7f6d77c4f414e328b1e5cc5",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "11.729588736605365",
+          "validated_arl0": "196.3808",
+          "se": "1.7067706834113876",
+          "censored_rate": "0.0132",
+          "paths": "10000"
+        }
+      ]
+    },
+    {
+      "case": "III",
+      "kind": "calibration",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_calibration.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_calibration.csv",
+      "source_sha256": "47d5266d6f7261d561e5f92289768985d7665d32825a4e6594513b16ec2b1833",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "12.35602461968665",
+          "calibration_arl0": "199.9963",
+          "calibration_censored_rate": "0.0156",
+          "paths": "10000"
+        }
+      ],
+      "matching_upstream_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseIII_10000_20260923/proposed_calibration.csv",
+      "upstream_byte_identical": true
+    },
+    {
+      "case": "III",
+      "kind": "validation",
+      "package_path": "simulation/Table6_membership_shift_final/calibration/case_III/dmm/proposed_arl0_validation.csv",
+      "source_path": "<ORIGINAL_PROJECT>/simulation/results/table5_three_cases_dmm_caseIII_10000_20260923/proposed_arl0_validation.csv",
+      "source_sha256": "8172fec7640c1a3a20659c5cfbcf7e4b257e334075995782f24c4ddd9341dadb",
+      "original_rows": [
+        {
+          "method": "DMM-CUSUM",
+          "h": "12.35602461968665",
+          "validated_arl0": "197.1793",
+          "se": "1.7057905285479011",
+          "censored_rate": "0.0119",
+          "paths": "10000"
+        }
+      ]
+    }
+  ],
+  "limits": {
+    "I": "10.713608001344255",
+    "II": "11.729588736605365",
+    "III": "12.35602461968665"
+  },
+  "unknowns": [
+    "Original h-generation argv, seed tags, batch size, exact historical numerical environment are not authenticated by these CSVs."
+  ],
+  "replay_status": "awaiting independent full 3-case OC replay; do not claim 15 cells reproduce before that check.",
+  "current_verification_status": "archived_inputs_verified; full_OC_replay_not_performed_after_author_reduced_scope"
+}

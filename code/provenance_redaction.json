@@ -1,0 +1,14 @@
+{
+  "scope": "Personal absolute path strings in JSON metadata only",
+  "numerical_values_changed": false,
+  "numerical_source_files_changed": false,
+  "source_hash_fields_changed": false,
+  "records": [
+    {
+      "file": "membership_saved_inputs_manifest.json",
+      "string_fields_redacted": 9,
+      "original_sha256": "493450fb980429551fcb5009ecf200c91a62370f701242be5d7b6a965e529557",
+      "packaged_sha256": "92546a5afe428c6c45d2259f14c5af426d275900de4086eb8fc1358db0740148"
+    }
+  ]
+}
